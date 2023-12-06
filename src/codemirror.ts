@@ -109,8 +109,10 @@ export const readonlySetup: Extension = (() => [
   closeBrackets(),
 ])();
 
+
 export { EditorView as PRQLEditorView } from '@codemirror/view';
 export { EditorState } from '@codemirror/state';
 export { oneDark } from '@codemirror/theme-one-dark';
 export { CompletionContext } from '@codemirror/autocomplete';
 export { syntaxTree } from '@codemirror/language';
+export { sql } from '@codemirror/lang-sql';
